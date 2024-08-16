@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.veg{
+    width: 100%;
+}
+.ff{
+    width: 100%;
+}
+.container-1, .container-2{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    border: 1px solid gainsboro ;
+    margin: 1em 1em 0 3em;
+}
+.sub-container-1, .sub-container-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+
+}
